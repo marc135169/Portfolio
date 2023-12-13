@@ -1,0 +1,129 @@
+/* Design System */
+@font-face {
+  font-family: "Deserta", "Dreams";
+  src: url("assets/fonts/deserta.otf") format("opentype"), url("assets/fonts/dreams.ttf") format("truetype");
+}
+/* Modules */
+/*@import 'menu.scss';*/
+/* Design System */
+@font-face {
+  font-family: "Deserta", "Dreams";
+  src: url("assets/fonts/deserta.otf") format("opentype"), url("assets/fonts/dreams.ttf") format("truetype");
+}
+/* Modules */
+/*@import 'menu.scss';
+@import 'home.scss';
+@import 'loader.scss';*/
+/* Colors */
+/* Text configuration */
+/*$regular-font-weight: 400;
+$medium-font-weight: 500;
+$bold-font-weight: 700;
+$thin-font-weight: 300;
+
+$body-font-size: 1rem;
+$body-highlight-font-size: 1.125rem;
+$city-font-size: 1.063rem;
+$title-font-size: 1.5rem;
+$new-font-size: 0.875rem;*/
+/* Mixin */
+.hero {
+  margin-left: 5rem;
+}
+.hero__title {
+  font-size: 1.5rem;
+  line-height: 7rem;
+  /*text-shadow: 0 7px 30px #09090A, -4px -4px 4px rgba(9, 9, 10, 0.25);*/
+  background-color: #777777;
+  color: transparent;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.75);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.hero__img {
+  /*margin-top: 2rem;*/
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  right: 0;
+  top: -22rem;
+}
+.hero__3d {
+  width: 30%;
+  height: auto;
+  position: relative;
+  right: -20rem;
+  top: -15rem;
+}
+
+/* Colors */
+/* Text configuration */
+/*$regular-font-weight: 400;
+$medium-font-weight: 500;
+$bold-font-weight: 700;
+$thin-font-weight: 300;
+
+$body-font-size: 1rem;
+$body-highlight-font-size: 1.125rem;
+$city-font-size: 1.063rem;
+$title-font-size: 1.5rem;
+$new-font-size: 0.875rem;*/
+/* Mixin */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  margin: 0;
+  font-family: "Deserta", sans-serif;
+  background: radial-gradient(farthest-corner at 70% 50%, #2F2F31 0%, #141414 35%, #09090A 100%);
+  height: auto;
+}
+
+h1 {
+  font-family: "Dreams";
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+.nav .active {
+  color: white;
+}
+.nav .active:after {
+  content: "";
+  display: block;
+  margin-top: 0.2rem;
+  width: 70%;
+  height: 0.3rem;
+  background: linear-gradient(to right, #0038FF, rgba(0, 56, 255, 0.25));
+  border-radius: 20%;
+}
+.nav__link {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 3rem;
+}
+.nav__link:hover {
+  color: white;
+}
+.nav__link:hover:after {
+  content: "";
+  display: block;
+  margin-top: 0.2rem;
+  width: 70%;
+  height: 0.3rem;
+  background: linear-gradient(to right, #0038FF, rgba(0, 56, 255, 0.25));
+  border-radius: 20%;
+}
+
+/*# sourceMappingURL=main.css.map */
